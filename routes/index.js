@@ -10,6 +10,9 @@ router.get('/', function(req, res, next) {
 router.get('/gallery', function(req, res, next) {
   res.render('gallery', { title: 'Express Error' });
 });
+router.get('/funny', function(req, res, next) {
+  res.render('funny', { title: 'Express Error' });
+});
 
 // const path = require('path');
 // app.use('/', router);
