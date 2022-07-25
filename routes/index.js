@@ -13,6 +13,9 @@ router.get('/gallery', function(req, res, next) {
 router.get('/funny', function(req, res, next) {
   res.render('funny', { title: 'Express Error' });
 });
+router.get('/ml-tournament', function(req, res, next) {
+  res.render('ml-tournament', { title: 'Express Error' });
+});
 
 // const path = require('path');
 // app.use('/', router);
