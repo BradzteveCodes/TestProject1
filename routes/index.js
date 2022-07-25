@@ -7,8 +7,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 
 });
-router.get('/page1', function(req, res, next) {
-  res.render('page1', { title: 'Express Error' });
+router.get('/gallery', function(req, res, next) {
+  res.render('gallery', { title: 'Express Error' });
 });
 
 // const path = require('path');
@@ -18,7 +18,7 @@ router.get('/page1', function(req, res, next) {
 //     //__dirname : It will resolve to your project folder.
 //   });\
 
-  router.get('/page1', function (req, res) {
+  router.get('/gallery', function (req, res) {
     res.sendFile(path.join(__dirname + '/page1.ejs'));
   });
   
