@@ -1,0 +1,14 @@
+<%- include('../partials/header'); -%>
+
+    <div class="container">
+        <br><br><br>
+        <h1>
+            <%= title %>
+        </h1>
+        <%if(sampleData.length>0){
+            sampleData.forEach(function(data){%>
+                 <%= data.id+' '+data.lname %>
+             <%});
+        }%>
+    </div>
+    <%- include('../partials/footer'); -%>

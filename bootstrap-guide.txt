@@ -1,0 +1,2 @@
+d-none d-md-block = this will hide container when breakpoints meet 
+col-6 col-md-6 = starting point==>col-md-6,change size to col-6 when breakpoints meets
